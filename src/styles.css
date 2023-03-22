@@ -95,3 +95,31 @@ h3{
 #copyright{
     color:grey
 }
+
+.jobs {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 48px;
+  }
+  
+  #jobs-table {
+    width: 100%;
+    border: 1px solid #78716c;
+    border-collapse: collapse;
+  }
+  .jobs-header-row th {
+    border: 1px solid #78716c;
+    padding: 8px;
+    background-color: #dbeafe;
+    color: #222222;
+  }
+  
+  .jobs-data-row td {
+    border: 1px solid #78716c;
+    padding: 8px;
+  }
+  
+  .jobs-data-row:nth-child(odd) {
+    background-color: #eff6ff;
+  }
+  
