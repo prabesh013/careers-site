@@ -122,4 +122,49 @@ h3{
   .jobs-data-row:nth-child(odd) {
     background-color: #eff6ff;
   }
+
+  #application {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 48px;
+  }
+  
+  #application h2 {
+    margin-top: 32px;
+  }
+  
+  .form-group {
+    margin: 16px 0;
+  }
+  
+  #application-form label {
+    font-weight: 500;
+  }
+  #application-form input,
+  select,
+  textarea {
+    padding: 8px;
+    font-size: 1.2rem;
+    margin-top: 4px;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+  
+  .form-group textarea {
+    width: 80%;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .form-group input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .form-group input[type="submit"] {
+    background-color: #1d4ed8;
+    color: white;
+    font-weight: 500;
+    padding: 8px;
+    cursor: pointer;
+  }
   
